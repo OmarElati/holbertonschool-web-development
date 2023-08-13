@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    background-image: url("./images/background.png");
+    background-repeat: no-repeat;
+    max-height: 100vh;
+    background-position: start;
+    background-size: cover;
+}
+
+/* Start in Header */
+
+header {
+    text-transform: uppercase;
+}
+
+header div {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+header div div a {
+    color: white;
+    margin: 0 30px;
+}
+
+/* End Header Style */
+
+/* Start in Section Banner */
+
+section:nth-child(1) div:nth-child(1) {
+    margin: 60px 0;
+    text-align: center;
+}
+
+section:nth-child(1) div:nth-child(1) h1 {
+    font-size: 120px;
+    color: white;
+}
+
+section:nth-child(1) .nrt p {
+    text-transform: uppercase;
+    color: white;
+    word-spacing: 60px;
+}
+
+button {
+    background-color: #c271ff;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px;
+    border: 0;
+    border-radius: 20px;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+section:nth-child(1) div:nth-child(2) {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+section:nth-child(1) div:nth-child(2) h2 {
+    padding-top: 70px;
+    font-size: 32px;
+    color: white;
+}
+
+section:nth-child(1) div:nth-child(2) h2 span {
+    color: #c271ff;
+}
+
+section:nth-child(1) div:nth-child(2) div {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+section:nth-child(1) div:nth-child(2) div div {
+    margin: 20px;
+}
+
+section:nth-child(1) div:nth-child(2) div div,
+img,
+h3,
+p {
+    display: block;
+}
+
+section:nth-child(1) div:nth-child(2) div div h3 {
+    font: bold;
+    color: white;
+    margin: 0.45rem 0;
+}
+
+section:nth-child(1) div:nth-child(2) div div p {
+    color: rgb(215, 215, 215);
+    font-style: italic;
+}
+
+/* End Section Banner */
+
+/* Start Section Quote */
+
+section:nth-child(2) {
+    background-color: #c271ff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 80px 0;
+}
+
+section:nth-child(2) div:nth-child(1) {
+    color: white;
+}
+
+section:nth-child(2) blockquote {
+    margin-top: 10px;
+}
+
+section:nth-child(2) .n-a {
+    font-weight: bold;
+    font-size: large;
+    margin: 20px 0 10px 0;
+}
+
+section:nth-child(2) img {
+    width: 160px;
+    float: left;
+    margin-right: 30px;
+}
+
+/* End Section Quote */
+
+/* Start Section Videos */
+
+section:nth-child(3) {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+section:nth-child(3) h1 {
+    font-size: 32px;
+    font-weight: 300;
+    margin: 60px 0;
+}
+
+section:nth-child(3) h1 span {
+    font-weight: bold;
+    color: #c271ff;
+}
+
+.video-block {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.video-block div {
+    max-width: 255px;
+}
+
+.video-block div h2 {
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+.video-block div p {
+    color: #07162980;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.author-block {
+    display: flex;
+    align-items: center;
+}
+
+.author-block img {
+    width: 30px;
+}
+
+.author-block h3 {
+    font-size: 14px;
+    margin-left: 10px;
+    color: #c271ff;
+}
+
+.rating-block {
+    display: flex;
+    margin: 15px 0;
+    justify-content: space-between;
+}
+
+.rating-block div img {
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+}
+
+.rating-block div {
+    display: flex;
+}
+
+.rating-block p {
+    color: #c271ff;
+}
+
+/* End Section Videos */
+
+/* Start Section Membership */
+
+section:nth-child(4) {
+    text-align: center;
+    background-color: #071629;
+    color: white;
+}
+
+section:nth-child(4) h1 {
+    padding: 50px 0;
+    font-weight: 300;
+}
+
+section:nth-child(4) h1 span {
+    font-weight: bold;
+    color: #c271ff;
+}
+
+section:nth-child(4) div {
+    display: flex;
+    justify-content: space-around;
+}
+
+section:nth-child(4) div div,
+img,
+h2,
+p {
+    display: block;
+}
+
+section:nth-child(4) div div {
+    max-width: 257px;
+}
+
+section:nth-child(4) div div img {
+    text-align: center;
+    margin-left: 37%;
+}
+
+section:nth-child(4) div div h2 {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+section:nth-child(4) div div p {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(221, 221, 221);
+}
+
+section:nth-child(4) button {
+    margin: 60px 0 50px 0;
+}
+
+/* End Section Membership */
+
+/* Start Section FAQ */
+
+section:nth-child(5) {
+    margin: 0 0 60px 0;
+    text-align: center;
+}
+
+section:nth-child(5) h1 {
+    font-size: 60px;
+    font-weight: 300;
+    margin: 60px 0;
+}
+
+section:nth-child(5) .row-block .item-block {
+    display: flex;
+    justify-content: space-around;
+}
+
+section:nth-child(5) .row-block .item-block div {
+    text-align: left;
+    max-width: 350px;
+    margin-bottom: 60px;
+}
+
+section:nth-child(5) .row-block .item-block div h2 {
+    margin: 20px 0 30px 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+section:nth-child(5) .row-block .item-block div p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(7, 22, 41, 0.5016);
+    line-height: 1.5;
+}
+
+/* End Section FAQ */
+
+/* Start Footer */
+
+.footer-content {
+    background-color: #071629;
+    color: white;
+}
+
+.footer-content .row-block {
+    display: flex;
+    justify-content: space-around;
+    padding: 90px 0;
+    text-align: center;
+}
+
+.footer-content .row-block div:nth-child(2) {
+    display: flex;
+}
+
+.footer-content .row-block div:nth-child(2) a {
+    margin: 0 10px;
+}
+
+.footer-content p {
+    text-align: center;
+    color: #ffffff94;
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+/* End Footer */
